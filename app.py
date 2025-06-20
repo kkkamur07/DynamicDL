@@ -105,6 +105,7 @@ if st.session_state.running:
     progress_bar = st.progress(0)
     step_info = st.empty()
     
+    
     for i in range(st.session_state.anim_step, steps):
         sgd_err = np.linalg.norm(sgd_path[:i+1] - beta_star, axis=1)
         sgf_err = np.linalg.norm(sgf_path[:i+1] - beta_star, axis=1)
