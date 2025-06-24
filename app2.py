@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import time
 
-st.title("Brownian Motion & Schauder Approximation")
+st.title("Brownian Motion Approximation")
 
 # User controls
 levels = st.slider("Number of Schauder levels", 1, 10, 5)
